@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {path: '/', component: Users},
     {path: '/test', component: Test},
-    {path: '/google', beforeEnter(to, from, next){
-      window.location = "http://google.com"
+    {path: '/fpl-moving', beforeEnter(to, from, next){
+      window.location = "https://webtest.fpl.com/account/moving.html"
     }}
   ]
 })

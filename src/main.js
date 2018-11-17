@@ -24,7 +24,7 @@ new Vue({
     <ul>
       <li><router-link to="/">Users</router-link></li>
       <li><router-link to="/test">Test</router-link></li>
-      <li><router-link to="/google">Google</router-link></li>
+      <li><router-link to="/fpl-moving">FPL Moving</router-link></li>
     </ul>
     <router-view></router-view>
     </div>
