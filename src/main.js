@@ -24,7 +24,8 @@ new Vue({
     <ul>
       <li><router-link to="/">Users</router-link></li>
       <li><router-link to="/test">Test</router-link></li>
-      <li><router-link to="/fpl-moving">FPL Moving</router-link></li>
+      <li><router-link to="/fpl-moving">FPL Moving - router</router-link></li>
+      <li><a href="http://www.fpl.com">FPL - anchor</li>
     </ul>
     <router-view></router-view>
     </div>
